@@ -26,7 +26,7 @@ TEST_F(WeatherTestCase, StringDifference) {
   r1["list"][0]["main"]["temp"] = 10.0;
   r2["list"][0]["main"]["temp"] = 20.0;
 
-  std::string c1 = "Moscow", c2 = "Tokio";
+  std::string c1 = "Moscow", c2 = "Tokyo";
 
   std::ostringstream gr, lo;
 
